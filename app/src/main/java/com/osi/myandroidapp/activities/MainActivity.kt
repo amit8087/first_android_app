@@ -1,10 +1,12 @@
-package com.osi.myandroidapp
+package com.osi.myandroidapp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.osi.myandroidapp.R
+import com.osi.myandroidapp.showToast
 import kotlinx.android.synthetic.main.activity_main.* // View binding
 
 class MainActivity : AppCompatActivity() {
@@ -15,7 +17,8 @@ class MainActivity : AppCompatActivity() {
         // Event listener for ShowToast button
         btnShowToast.setOnClickListener {
             Log.i("MainActivity", "Button was clicked !")
-            Toast.makeText(this, "Button was clicked", Toast.LENGTH_SHORT).show()
+            showToast("Button was clicked")
+//            Toast.makeText(this, "Button was clicked", Toast.LENGTH_SHORT).show()
         }
 
         // Event listener for sendDataToNextActivity button

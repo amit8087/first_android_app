@@ -1,9 +1,9 @@
-package com.osi.myandroidapp
+package com.osi.myandroidapp.model
 
 data class Hobby(var title: String)
 
 object Supplier {
-    val hobbies = listOf<Hobby>(
+    val hobbies = listOf(
         Hobby("Coding"),
         Hobby("Reading"),
         Hobby("Writing"),
