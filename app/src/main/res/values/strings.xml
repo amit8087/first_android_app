@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Android App</string>
+    <string name="btnShowToast">Show Toast</string>
+    <string name="etUserMessage">Enter your Message</string>
+    <string name="btnSendMsgToNextActivity">Send Data to Next Activity</string>
+    <string name="btnShareToOtherApp">Share to Other Apps</string>
+    <string name="btnRecyclerViewDemo">Recycler View Demo</string>
+    <string name="txvTitle">Title</string>
+
+</resources>
+
